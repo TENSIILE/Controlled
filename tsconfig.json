@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": false,
+    "jsx": "react",
+    "baseUrl": "./",
+    "target": "es5",
+    "module": "commonjs",
+    "declaration": true,
+    "outDir": "dist",
+    "emitDeclarationOnly": true,
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "paths": {},
+    "types": ["node"]
+  },
+  "files": ["index.ts"],
+  "include": ["src", "constants.ts", "src/form-fields/.storybook/form-fields.stories.tsx"],
+  "exclude": [
+    "node_modules",
+    "storybook-static",
+    "dist",
+    ".storybook",
+    "src/**/.storybook",
+    "src/**/*.stories.tsx",
+    "src/**/*.mock.ts",
+    "src/**/*.stub.tsx?",
+    "src/**/*storybook.tsx",
+    "src/**/storybook/"
+  ]
+}

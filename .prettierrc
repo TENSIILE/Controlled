@@ -1,0 +1,22 @@
+{
+  "semi": true,
+  "tabWidth": 2,
+  "printWidth": 120,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "jsxSingleQuote": true,
+  "bracketSpacing": true,
+  "useTabs": false,
+  "jsxBracketSameLine": false,
+  "arrowParens": "avoid",
+  "importOrder": [
+    "^react",
+    "^classnames",
+    "^react-hook-form",
+    "^antd",
+    "@vanilla-extract/css",
+    "@storybook/react",
+    "<THIRD_PARTY_MODULES>",
+    "^[./]"
+  ]
+}

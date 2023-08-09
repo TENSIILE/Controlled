@@ -1,0 +1,14 @@
+# ide folder
+/.idea
+
+# VScode folder
+/.vscode
+
+# dependencies
+/node_modules
+
+# cache
+.eslintcache
+
+#storybook build
+/storybook-static
